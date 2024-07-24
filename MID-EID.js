@@ -32,9 +32,13 @@ document.addEventListener("DOMContentLoaded", function() {
     top: 0;
   }
 
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
+  /* tr:nth-child(even) {
+        background-color: #f2f2f2;
+      } */
+       
+      .highlight-even {
+            background-color: #f2f2f2 !important;
+        }
 
   caption {
     caption-side: top;
