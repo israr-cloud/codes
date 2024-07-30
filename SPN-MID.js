@@ -21,6 +21,10 @@ document.addEventListener("DOMContentLoaded", function() {
     font-size: 14px;
   }
 
+  .fault-table-wrapper td .softmerge-inner {
+    width: 100% !important;
+  }
+
   th {
     background-color: #061938;
     font-size: 14px;
@@ -33,12 +37,12 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   /* tr:nth-child(even) {
-        background-color: #f2f2f2;
-      } */
-       
-      .highlight-even {
-            background-color: #f2f2f2 !important;
-        }
+              background-color: #f2f2f2;
+            } */
+
+  .highlight-even {
+    background-color: #f2f2f2 !important;
+  }
 
   caption {
     caption-side: top;
@@ -70,38 +74,31 @@ document.addEventListener("DOMContentLoaded", function() {
           style="width: 151px"
           class="column-headers-background"
         >
-          Code Identifier
+          CodeIdentifier
         </th>
         <th
           id="1475988513C1"
-          style="width: 555px"
+          style="width: 100px"
           class="column-headers-background"
         >
-          Code Description
+          CodeDescription
         </th>
         <th
           id="1475988513C2"
           style="width: 100px"
           class="column-headers-background"
         >
-          Count
+          SPN
         </th>
         <th
           id="1475988513C3"
           style="width: 100px"
           class="column-headers-background"
         >
-          SPN
-        </th>
-        <th
-          id="1475988513C4"
-          style="width: 326px"
-          class="column-headers-background"
-        >
           SPN Description
         </th>
         <th
-          id="1475988513C5"
+          id="1475988513C4"
           style="width: 100px"
           class="column-headers-background"
         >
@@ -111,198 +108,292 @@ document.addEventListener("DOMContentLoaded", function() {
     </thead>
     <tbody>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:1614, MID:299</td>
-        <td class="s4" dir="ltr">Overspeed: High - most severe (3)</td>
-        <td class="s5" dir="ltr">60</td>
-        <td class="s5" dir="ltr">1614</td>
-        <td class="s4" dir="ltr">Overspeed</td>
-        <td class="s5" dir="ltr">299</td>
+        <td class="s0" dir="ltr">CodeIdentifier</td>
+        <td class="s0 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            CodeDescription
+          </div>
+        </td>
+        <td class="s0" dir="ltr">SPN</td>
+        <td class="s0 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            SPN Description
+          </div>
+        </td>
+        <td class="s0" dir="ltr">MID</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:96, MID:325</td>
-        <td class="s4" dir="ltr">Fuel Level: High - most severe (3)</td>
-        <td class="s5" dir="ltr">13</td>
-        <td class="s5" dir="ltr">96</td>
-        <td class="s4" dir="ltr">Fuel Level</td>
-        <td class="s5" dir="ltr">325</td>
+        <td class="s1" dir="ltr">SPN:1614, MID:299</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Overspeed: High - most severe (3)
+          </div>
+        </td>
+        <td class="s2" dir="ltr">1614</td>
+        <td class="s1" dir="ltr">Overspeed</td>
+        <td class="s2" dir="ltr">299</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:523602, MID:263</td>
-        <td class="s4" dir="ltr">UNKNOWN</td>
-        <td class="s5" dir="ltr">12</td>
-        <td class="s5" dir="ltr">523602</td>
-        <td class="s4" dir="ltr">Aftertreatment Regeneration Frequency</td>
-        <td class="s5" dir="ltr">263</td>
+        <td class="s1" dir="ltr">SPN:96, MID:325</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Fuel Level: High - most severe (3)
+          </div>
+        </td>
+        <td class="s2" dir="ltr">96</td>
+        <td class="s1" dir="ltr">Fuel Level</td>
+        <td class="s2" dir="ltr">325</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:2448, MID:277</td>
-        <td class="s4" dir="ltr">
-          Generator Average AC RMS Current: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:523602, MID:263</td>
+        <td class="s1" dir="ltr">UNKNOWN</td>
+        <td class="s2" dir="ltr">523602</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment Regeneration Frequency
+          </div>
         </td>
-        <td class="s5" dir="ltr">9</td>
-        <td class="s5" dir="ltr">2448</td>
-        <td class="s4" dir="ltr">Generator Average AC RMS Current</td>
-        <td class="s5" dir="ltr">277</td>
+        <td class="s2" dir="ltr">263</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:5246, MID:12544</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment SCR Operator Inducement Severity: High - most severe
-          (3)
+        <td class="s1" dir="ltr">SPN:2448, MID:277</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Generator Average AC RMS Current: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">8</td>
-        <td class="s5" dir="ltr">5246</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment SCR Operator Inducement Severity
+        <td class="s2" dir="ltr">2448</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Generator Average AC RMS Current
+          </div>
         </td>
-        <td class="s5" dir="ltr">12544</td>
+        <td class="s2" dir="ltr">277</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:5246, MID:263</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment SCR Operator Inducement Severity: High - most severe
-          (3)
+        <td class="s1" dir="ltr">SPN:5246, MID:12544</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment SCR Operator Inducement Severity: High - most severe
+            (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">6</td>
-        <td class="s5" dir="ltr">5246</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment SCR Operator Inducement Severity
+        <td class="s2" dir="ltr">5246</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment SCR Operator Inducement Severity
+          </div>
         </td>
-        <td class="s5" dir="ltr">263</td>
+        <td class="s2" dir="ltr">12544</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:190, MID:263</td>
-        <td class="s4" dir="ltr">Engine Speed: High - most severe (3)</td>
-        <td class="s5" dir="ltr">4</td>
-        <td class="s5" dir="ltr">190</td>
-        <td class="s4" dir="ltr">Engine Speed</td>
-        <td class="s5" dir="ltr">263</td>
+        <td class="s1" dir="ltr">SPN:5246, MID:263</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment SCR Operator Inducement Severity: High - most severe
+            (3)
+          </div>
+        </td>
+        <td class="s2" dir="ltr">5246</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment SCR Operator Inducement Severity
+          </div>
+        </td>
+        <td class="s2" dir="ltr">263</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:110, MID:263</td>
-        <td class="s4" dir="ltr">
-          Engine Coolant Temperature: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:190, MID:263</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Speed: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">4</td>
-        <td class="s5" dir="ltr">110</td>
-        <td class="s4" dir="ltr">Engine Coolant Temperature</td>
-        <td class="s5" dir="ltr">263</td>
+        <td class="s2" dir="ltr">190</td>
+        <td class="s1" dir="ltr">Engine Speed</td>
+        <td class="s2" dir="ltr">263</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:110, MID:277</td>
-        <td class="s4" dir="ltr">
-          Engine Coolant Temperature: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:110, MID:263</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">3</td>
-        <td class="s5" dir="ltr">110</td>
-        <td class="s4" dir="ltr">Engine Coolant Temperature</td>
-        <td class="s5" dir="ltr">277</td>
+        <td class="s2" dir="ltr">110</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature
+          </div>
+        </td>
+        <td class="s2" dir="ltr">263</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:4193, MID:12692</td>
-        <td class="s4" dir="ltr">
-          Engine Coolant Pump Outlet Temperature: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:110, MID:277</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">3</td>
-        <td class="s5" dir="ltr">4193</td>
-        <td class="s4" dir="ltr">Engine Coolant Pump Outlet Temperature</td>
-        <td class="s5" dir="ltr">12692</td>
+        <td class="s2" dir="ltr">110</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature
+          </div>
+        </td>
+        <td class="s2" dir="ltr">277</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:174, MID:263</td>
-        <td class="s4" dir="ltr">
-          Engine Fuel Temperature 1: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:4193, MID:12692</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Pump Outlet Temperature: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">2</td>
-        <td class="s5" dir="ltr">174</td>
-        <td class="s4" dir="ltr">Engine Fuel Temperature 1</td>
-        <td class="s5" dir="ltr">263</td>
+        <td class="s2" dir="ltr">4193</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Pump Outlet Temperature
+          </div>
+        </td>
+        <td class="s2" dir="ltr">12692</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:5571, MID:263</td>
-        <td class="s4" dir="ltr">
-          High Pressure Common Rail Fuel Pressure Relief Valve: High - most
-          severe (3)
+        <td class="s1" dir="ltr">SPN:174, MID:263</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Fuel Temperature 1: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">2</td>
-        <td class="s5" dir="ltr">5571</td>
-        <td class="s4" dir="ltr">
-          High Pressure Common Rail Fuel Pressure Relief Valve
+        <td class="s2" dir="ltr">174</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Fuel Temperature 1
+          </div>
         </td>
-        <td class="s5" dir="ltr">263</td>
+        <td class="s2" dir="ltr">263</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:127, MID:12547</td>
-        <td class="s4" dir="ltr">
-          Transmission Oil Pressure: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:5571, MID:263</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            High Pressure Common Rail Fuel Pressure Relief Valve: High - most
+            severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">1</td>
-        <td class="s5" dir="ltr">127</td>
-        <td class="s4" dir="ltr">Transmission Oil Pressure</td>
-        <td class="s5" dir="ltr">12547</td>
+        <td class="s2" dir="ltr">5571</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            High Pressure Common Rail Fuel Pressure Relief Valve
+          </div>
+        </td>
+        <td class="s2" dir="ltr">263</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:110, MID:12615</td>
-        <td class="s4" dir="ltr">
-          Engine Coolant Temperature: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:127, MID:12547</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Transmission Oil Pressure: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">1</td>
-        <td class="s5" dir="ltr">110</td>
-        <td class="s4" dir="ltr">Engine Coolant Temperature</td>
-        <td class="s5" dir="ltr">12615</td>
+        <td class="s2" dir="ltr">127</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Transmission Oil Pressure
+          </div>
+        </td>
+        <td class="s2" dir="ltr">12547</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:523600, MID:263</td>
-        <td class="s4" dir="ltr">Fuel Pump Calibration Not Completed</td>
-        <td class="s5" dir="ltr">1</td>
-        <td class="s5" dir="ltr">523600</td>
-        <td class="s4" dir="ltr">Fuel Pump Calibration Not Completed</td>
-        <td class="s5" dir="ltr">263</td>
+        <td class="s1" dir="ltr">SPN:110, MID:12615</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature: High - most severe (3)
+          </div>
+        </td>
+        <td class="s2" dir="ltr">110</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature
+          </div>
+        </td>
+        <td class="s2" dir="ltr">12615</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:5245, MID:12544</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment Selective Catalytic Reduction Operator Inducement
-          Active: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:523600, MID:263</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Fuel Pump Calibration Not Completed
+          </div>
         </td>
-        <td class="s5" dir="ltr">1</td>
-        <td class="s5" dir="ltr">5245</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment 1 DEF Tank Low Level Indicator
+        <td class="s2" dir="ltr">523600</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Fuel Pump Calibration Not Completed
+          </div>
         </td>
-        <td class="s5" dir="ltr">12544</td>
+        <td class="s2" dir="ltr">263</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:110, MID:12544</td>
-        <td class="s4" dir="ltr">
-          Engine Coolant Temperature: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:5245, MID:12544</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment Selective Catalytic Reduction Operator Inducement
+            Active: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">1</td>
-        <td class="s5" dir="ltr">110</td>
-        <td class="s4" dir="ltr">Engine Coolant Temperature</td>
-        <td class="s5" dir="ltr">12544</td>
+        <td class="s2" dir="ltr">5245</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment 1 DEF Tank Low Level Indicator
+          </div>
+        </td>
+        <td class="s2" dir="ltr">12544</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:3242, MID:12544</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment #1 DPF Intake Temperature: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:110, MID:12544</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">1</td>
-        <td class="s5" dir="ltr">3242</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment #1 DPF Intake Gas Temperature
+        <td class="s2" dir="ltr">110</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Engine Coolant Temperature
+          </div>
         </td>
-        <td class="s5" dir="ltr">12544</td>
+        <td class="s2" dir="ltr">12544</td>
       </tr>
       <tr style="height: 20px">
-        <td class="s4" dir="ltr">SPN:3484, MID:12544</td>
-        <td class="s4" dir="ltr">
-          Aftertreatment #1 Ignition: High - most severe (3)
+        <td class="s1" dir="ltr">SPN:3242, MID:12544</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment #1 DPF Intake Temperature: High - most severe (3)
+          </div>
         </td>
-        <td class="s5" dir="ltr">1</td>
-        <td class="s5" dir="ltr">3484</td>
-        <td class="s4" dir="ltr">Aftertreatment #1 Ignition</td>
-        <td class="s5" dir="ltr">12544</td>
+        <td class="s2" dir="ltr">3242</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment #1 DPF Intake Gas Temperature
+          </div>
+        </td>
+        <td class="s2" dir="ltr">12544</td>
+      </tr>
+      <tr style="height: 20px">
+        <td class="s1" dir="ltr">SPN:3484, MID:12544</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment #1 Ignition: High - most severe (3)
+          </div>
+        </td>
+        <td class="s2" dir="ltr">3484</td>
+        <td class="s1 softmerge" dir="ltr">
+          <div class="softmerge-inner" style="width: 97px; left: -1px">
+            Aftertreatment #1 Ignition
+          </div>
+        </td>
+        <td class="s2" dir="ltr">12544</td>
       </tr>
     </tbody>
   </table>
