@@ -74,14 +74,14 @@ document.addEventListener("DOMContentLoaded", function() {
           style="width: 157px"
           class="column-headers-background"
         >
-          CodeIdentifier
+          Code Identifier
         </th>
         <th
           id="614107284C1"
           style="width: 352px"
           class="column-headers-background"
         >
-          CodeDescription
+          Code Description
         </th>
         <th
           id="614107284C2"
