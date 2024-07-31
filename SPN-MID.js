@@ -74,14 +74,14 @@ document.addEventListener("DOMContentLoaded", function() {
           style="width: 151px"
           class="column-headers-background"
         >
-          CodeIdentifier
+          Code Identifier
         </th>
         <th
           id="1475988513C1"
           style="width: 100px"
           class="column-headers-background"
         >
-          CodeDescription
+          Code Description
         </th>
         <th
           id="1475988513C2"
@@ -107,21 +107,6 @@ document.addEventListener("DOMContentLoaded", function() {
       </tr>
     </thead>
     <tbody>
-      <tr style="height: 20px">
-        <td class="s0" dir="ltr">CodeIdentifier</td>
-        <td class="s0 softmerge" dir="ltr">
-          <div class="softmerge-inner" style="width: 97px; left: -1px">
-            CodeDescription
-          </div>
-        </td>
-        <td class="s0" dir="ltr">SPN</td>
-        <td class="s0 softmerge" dir="ltr">
-          <div class="softmerge-inner" style="width: 97px; left: -1px">
-            SPN Description
-          </div>
-        </td>
-        <td class="s0" dir="ltr">MID</td>
-      </tr>
       <tr style="height: 20px">
         <td class="s1" dir="ltr">SPN:1614, MID:299</td>
         <td class="s1 softmerge" dir="ltr">
