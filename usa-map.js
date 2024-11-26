@@ -985,65 +985,6 @@ document.addEventListener("DOMContentLoaded", function() {
     gap: 15px;
   }
 </style>
-
-<script defer>
-  document.addEventListener("DOMContentLoaded", function () {
-    const mapContainer = document.querySelector(".map-container");
-    const statesInfoDivs = document.querySelectorAll(".statesInfo div");
-
-    // Function to set a random state as active by default
-    function setRandomStateActive() {
-      // Select all <g> tags
-      const gTags = mapContainer.querySelectorAll("g");
-      if (gTags.length > 0) {
-        // Pick a random <g> tag
-        const randomGTag = gTags[Math.floor(Math.random() * gTags.length)];
-        randomGTag.classList.add("active"); // Add 'active' class to the random <g>
-
-        // Get the ID of the random <g> tag
-        const gTagId = randomGTag.id;
-
-        // Match the random <g> tag's ID with a corresponding <div> in .statesInfo
-        statesInfoDivs.forEach((div) => {
-          if (div.classList.contains(gTagId)) {
-            div.classList.add("active"); // Add 'active' class if matched
-          } else {
-            div.classList.remove("active"); // Ensure others don't have 'active'
-          }
-        });
-      }
-    }
-
-    // Add click event listener to map-container
-    mapContainer.addEventListener("click", function (event) {
-      const clickedG = event.target.closest("g");
-      if (clickedG) {
-        // Remove the 'active' class from all <g> tags
-        mapContainer
-          .querySelectorAll("g.active")
-          .forEach((g) => g.classList.remove("active"));
-
-        // Add the 'active' class to the clicked <g> tag
-        clickedG.classList.add("active");
-
-        // Get the ID of the clicked <g> tag
-        const gTagId = clickedG.id;
-
-        // Match the clicked <g> tag's ID with a corresponding <div> in .statesInfo
-        statesInfoDivs.forEach((div) => {
-          if (div.classList.contains(gTagId)) {
-            div.classList.add("active"); // Add 'active' class if matched
-          } else {
-            div.classList.remove("active"); // Ensure others don't have 'active'
-          }
-        });
-      }
-    });
-
-    // Set a random state as active on page load
-    setRandomStateActive();
-  });
-</script>
 `;
 
  // Select the div with the class .usa-map-wrapper
