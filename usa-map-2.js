@@ -981,7 +981,7 @@ document.addEventListener("DOMContentLoaded", function() {
 .statesInfo h3{
 color: var(--midnight-blue);
 }
-.statesInfo h3{
+.statesInfo p{
 font-size: 14px;
 }
 
