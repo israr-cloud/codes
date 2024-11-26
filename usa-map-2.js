@@ -970,19 +970,22 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   .statesInfo {
-    background-color: var(--white-smoke);
     padding: 20px;
     border-radius: 20px;
     width: 100%;
     height: 100%;
-    margin-bottom: 20px;
+    background-color: var(--white-smoke) !important;
+    margin-bottom: 20px !important;
   }
 
 .statesInfo h3{
-color: var(--midnight-blue);
+color: var(--midnight-blue) !important;
+margin: 0 !important;
 }
+
 .statesInfo p{
 font-size: 14px;
+margin: 0 !important;
 }
 
   .statesInfo > div {
