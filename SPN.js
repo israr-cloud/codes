@@ -16600,6 +16600,87 @@ document.addEventListener("DOMContentLoaded", function() {
             <td class="s1">523700</td>
             <td class="s0">EEPROM Checksum</td>
           </tr>
+
+          <tr style="height: 19px">
+    <td class="s1">16</td>
+    <td class="s0">Engine Fuel Filter (suction side) Differential Pressure</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">120</td>
+    <td class="s0">Hydraulic Retarder Oil Temperature</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">2771-2788</td>
+    <td class="s0">Reserved for assignment</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">3533</td>
+    <td class="s0">Aftertreatment #1 Diesel Exhaust Fluid Tank Level Preliminary FMI</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">3557</td>
+    <td class="s0">Engine Intake Manifold #1 Absolute Pressure</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">3827</td>
+    <td class="s0">Aftertreatment 1 SCR Commanded Diesel Exhaust Fluid Consumption</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">4268</td>
+    <td class="s0">Aftertreatment #1 Transformer Secondary Output</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">4385</td>
+    <td class="s0">Aftertreatment 2 Diesel Exhaust Fluid Actual Quantity of Integrator</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">4389</td>
+    <td class="s0">Aftertreatment 2 Diesel Exhaust Fluid Dosing Temperature</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">4811</td>
+    <td class="s0">Engine Intake Manifold #1 Absolute Pressure</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">5487</td>
+    <td class="s0">Aftertreatment 1 Diesel Exhaust Fluid Line Heater 5 State</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">5558</td>
+    <td class="s0">Supplemental Fan Controller Temperature Status</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">5586</td>
+    <td class="s0">Engine Injector Metering Rail #1 Cranking Pressure</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">5588</td>
+    <td class="s0">Aftertreatment #1 Secondary Air Absolute Pressure</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">5747</td>
+    <td class="s0">Aftertreatment 1 Diesel Exhaust Fluid Dosing Unit Heater Relay</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">5830</td>
+    <td class="s0">Diesel Exhaust Fluid Consumption Malfunction</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">5975</td>
+    <td class="s0">Aftertreatment 2 Diesel Exhaust Fluid Dosing Valve 1</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">6400</td>
+    <td class="s0">Engine Cylinder #1 Knock Level</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">6401</td>
+    <td class="s0">Engine Cylinder #1 Pressure Sensor Preliminary FMI</td>
+</tr>
+<tr style="height: 19px">
+    <td class="s1">6412</td>
+    <td class="s0">Engine Cylinder #5 Knock Level</td>
+</tr>
         </tbody>
       </table>
     </div> `;
