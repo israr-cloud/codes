@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // The HTML content to be added
+    // The HTML content to be added   
     let htmlContent = ` 
 <style>
       .fault-table-wrapper {
